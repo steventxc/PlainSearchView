@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlainSearchView">
+        <attr name="psv_searchBarWidth" format="dimension"/>
+        <attr name="psv_searchBarMarginTop" format="dimension"/>
+        <attr name="psv_searchBarMarginLeft" format="dimension"/>
+        <attr name="psv_searchBarMarginRight" format="dimension"/>
+        <attr name="psv_searchInputTextSize" format="dimension"/>
+        <attr name="psv_showMenuAction" format="boolean"/>
+        <attr name="psv_leftActionMode">
+            <enum name="showHamburger" value="1" />
+            <enum name="showSearch" value="2" />
+            <enum name="showHome" value="3" />
+            <enum name="noLeftAction" value="4" />
+        </attr>
+        <attr name="psv_showVoiceInput" format="boolean"/>
+        <attr name="psv_showSearchKey" format="boolean"/>
+        <attr name="psv_voiceRecHint" format="string"/>
+        <attr name="psv_searchHint" format="string"/>
+        <attr name="psv_hideOverflowMenuWhenFocused" format="boolean"/>
+        <attr name="psv_showOverFlowMenu" format="boolean"/>
+        <attr name="psv_close_search_on_keyboard_dismiss" format="boolean"/>
+        <attr name="psv_menu" format="reference"/>
+        <attr name="psv_leftActionColor" format="color"/>
+        <attr name="psv_viewTextColor" format="color"/>
+        <attr name="psv_viewSearchInputTextColor" format="color"/>
+        <attr name="psv_hintTextColor" format="color"/>
+        <attr name="psv_menuItemIconColor" format="color"/>
+        <attr name="psv_actionMenuOverflowColor" format="color"/>
+        <attr name="psv_clearBtnColor" format="color"/>
+        <attr name="psv_backgroundColor" format="color"/>
+    </declare-styleable>
+</resources>

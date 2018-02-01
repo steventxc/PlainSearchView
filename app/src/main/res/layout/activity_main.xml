@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tech.taoxi.searchview.MainActivity">
+
+
+    <tech.taoxi.libs.plainsearchview.PlainSearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:psv_close_search_on_keyboard_dismiss="true"
+        app:psv_leftActionMode="showSearch"
+        app:psv_menu="@menu/menu_search_view"
+        app:psv_searchBarMarginLeft="@dimen/search_view_inset"
+        app:psv_searchBarMarginRight="@dimen/search_view_inset"
+        app:psv_searchBarMarginTop="@dimen/search_view_inset"
+        app:psv_searchHint="Search..."
+        app:psv_showSearchKey="true" />
+</FrameLayout>
